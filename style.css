@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+}
+#hero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    height: 700px;
+    background-color:rgba(255, 255, 255, 0.246);
+    border-radius: 15px;
+    
+}
+#nav{
+    padding: 40px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+#left,#right{
+    color: rgba(73, 73, 73, 0.719);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+h4{
+    padding-right: 40px;
+    font-weight: 600;
+    font-size: 15px;
+}
+h4:hover{
+    color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    align-items:center ;
+    justify-content: right;
+    background-color: white;
+    width: 32px;
+    height:18px;
+    border-radius: 10px;
+    margin-right: 10em;
+}
+#but{
+    position: absolute;
+    background-color: rgb(0, 85, 195);
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+}
+#sign{
+    padding: 2px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+#sign:hover{
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+#choice,#icons{
+    display: flex;
+}
+#icons i{
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    padding-right: 25px;
+}
+#assets{
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    width: 350px;
+}
+#d3 h1{
+    line-height: 48px;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(36, 36, 36);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#d3 h5{
+    margin-left: 5px;
+    color: rgb(46, 46, 46);
+    font-weight: 500;
+}
+#choice{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.s{
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: rgb(0, 85, 195);
+    margin-right: 40px;
+}
+.b{
+    color: rgb(46, 46, 46);
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+}
+#image{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+#image img{
+    width: 600px;
+}
+#insta:hover{
+    color: rgb(253, 26, 178);
+    transition: 1s;
+}
+#fb:hover{
+    color: rgb(4, 61, 218);
+    transition: 1s;
+}
+#twit:hover{
+    color: rgb(0, 132, 255);
+    transition: 1s;
+}
+#be:hover{
+    color: rgb(237, 255, 78);
+    transition: 1s;
+}
+#dr:hover{
+    color: rgb(255, 0, 98);
+    transition: 1s;
+}
